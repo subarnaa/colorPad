@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Pad - Draw with Colors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" data-container>
+        <div class="title">Draw with Colors</div>
+        <div class="theme">
+            <h1>Change Theme</h1>
+            <input type="range" name="theme-slider" min="0" max="3" value="0" id="theme-slider">
+        </div>
+        <div class="color-pad" id="color-pad"></div>
+        <div class="slider-container">
+            <button name="reset-btn" id="reset-btn" class="btn">Reset</button>
+            <input
+             type="range"
+             name="color-slider"
+             id="color-slider"
+             min="1"
+             max="50"
+             value="14">
+             <p id="slider-value">14*14</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

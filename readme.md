@@ -1,0 +1,1 @@
+An online Color Pad built using HTML, CSS and JS for practice.
